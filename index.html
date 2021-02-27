@@ -14,74 +14,75 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>
-            <a class="link" href=""><span class="logo">Web</span>Studio</a>
+    <header class="header">
+        <h1 class="top-title">
+            <a class="logo link" href="">
+               Web<span>Studio</span></a>
         </h1>
-        <nav class="nav">
-            <ul class="list">
-                <li><a class="link" href="#">Студия</a></li>
-                <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="link" href="#">Контакты</a></li>
+        <nav class="navigation">
+            <ul class="navigation-list list">
+                <li class="navigation-item">
+                    <a class="navigation-link link" href="#">Студия</a></li>
+                <li class="navigation-item">
+                    <a class="navigation-link link" href="./portfolio.html">Портфолио</a></li>
+                <li class="navigation-item">
+                    <a class="navigation-link link" href="#">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="list">
-
-            <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-
+        <ul class="contact-list list">
+            <li><a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="tel-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-
     </header>
-
     <main>
-        <section>
-            <h2>
+        <!-- HERO -->
+        <section class="hero">
+            <h2 class="hero-item">
                 Эффективные решения для вашего бизнеса
             </h2>
-            <button type=button> Заказать услугу</button>
+            <button class="modal-btn" type=button> Заказать услугу</button>
         </section>
-        <ul class="list">
-            <li>
-                <h3>
+        <!-- ABOUT -->
+        <section class="about">
+         <ul class="about-list list">
+            <li class="about-list-item">
+                <h3 class="title">
                     Внимание к деталям
                 </h3>
-                <p>
+                <p class="description">
                     Идейные соображения, а также начало повседневной работы по формированию позиции.
                 </p>
             </li>
-            <li>
-                <h3>
+            <li class="about-list-item">
+                <h3 class="title">
                     Пунктуальность
                 </h3>
-                <p>
+                <p class="description">
                     Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                 </p>
             </li>
-
-            <li>
-                <h3>
+            <li class="about-list-item">
+                <h3 class="title">
                     Планирование
                 </h3>
-                <p>
+                <p class="description">
                     Равным образом консультация с широким активом в значительной степени обуславливает.
                 </p>
             </li>
-
-            <li>
-                <h3>
+            <li class="about-list-item">
+                <h3 class="title">
                     Современные технологии
                 </h3>
-                <p>
+                <p class="description">
                     Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                 </p>
             </li>
-
         </ul>
-
+        </section>
+        
         <!-- деятельность -->
         <section>
-            <h2>
+            <h2 class="title">
                 Чем мы занимаемся
             </h2>
             <img src="./images/деятельность/box-1.png" alt="написание кода" width=370 height="294">
@@ -91,7 +92,7 @@
         </section>
         <!-- коллектив -->
         <section>
-            <h2>
+            <h2 class="title">
                 Наша команда
             </h2>
             <ul class="list">
@@ -126,7 +127,8 @@
         <address class="adress">
             <ul class="list">
                 <li>
-                    <a class="link" href=""><span class="logo">Web</span>Studio</a>
+                    <a class="logo link" href="">
+                        Web<span>Studio</span></a>
                 </li>
                 <li>
                     г. Киев, пр-т Леси Украинки, 26
